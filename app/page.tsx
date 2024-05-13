@@ -1,3 +1,9 @@
+import Link from "next/link";
+
 export default function Home() {
-  return <h1>Home page</h1>;
+  return (
+    <div className="flex flex-col">
+      <Link href="/words">입장하기</Link>
+    </div>
+  );
 }
